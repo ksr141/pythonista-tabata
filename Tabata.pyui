@@ -1,0 +1,212 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 128}, {310, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "enabled" : true,
+          "action" : "rest_slider_moved",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "01B9351E-D0AF-4775-9059-39F15300C15E",
+          "value" : 0.10000000000000001,
+          "name" : "rest_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 46}, {310, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "enabled" : true,
+          "action" : "work_slider_moved",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "343632DF-6DB0-48BA-BC3C-3FF062DCC592",
+          "value" : 0.94999999999999996,
+          "name" : "work_slider"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 210}, {310, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "enabled" : true,
+          "action" : "rounds_slider_moved",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "A19D1ED9-4A2B-4FEB-8714-B15F9B7B9D8E",
+          "value" : 0.80000000298023211,
+          "name" : "rounds_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 495.5}, {92.5, 69.5}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "0323F593-E002-4412-99D3-93CAD69B13D0",
+          "flex" : "",
+          "corner_radius" : 7,
+          "background_color" : "RGBA(0.000000,1.000000,0.010000,1.000000)",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 2,
+          "title" : "Start",
+          "action" : "start_button_tapped",
+          "enabled" : true,
+          "font_bold" : true,
+          "name" : "start_button",
+          "font_size" : 24
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 321}, {309, 160}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "name" : "timer",
+          "enabled" : true,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "10",
+          "alignment" : "center",
+          "uuid" : "1268A850-FB33-4F1C-8890-2066EB29F421",
+          "font_size" : 90,
+          "font_name" : "ChalkboardSE-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 170}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Rounds: 8",
+          "alignment" : "left",
+          "uuid" : "E56E9153-2CE5-4399-B488-7EFDB1D52621",
+          "font_size" : 17,
+          "name" : "rounds_label"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 88}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Rest Interval: 5",
+          "alignment" : "left",
+          "uuid" : "90247BC6-E6ED-401E-9A56-1AE3F242AAE1",
+          "font_size" : 17,
+          "name" : "rest_label"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 6}, {176, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Work Interval: 45",
+          "alignment" : "left",
+          "uuid" : "667B52E2-58A4-4EE2-9432-623128DE32E0",
+          "font_size" : 17,
+          "name" : "work_label"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{249.5, 495.5}, {92.5, 69}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "DE014656-C0E2-4F76-877A-830567F21220",
+          "font_size" : 24,
+          "corner_radius" : 7,
+          "background_color" : "RGBA(0.890110,1.000000,0.230769,1.000000)",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 2,
+          "title" : "Pause",
+          "action" : "pause_button_tapped",
+          "enabled" : true,
+          "font_bold" : true,
+          "name" : "pause_button",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 252}, {202, 61}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "rounds",
+          "frame" : "{{113, 318}, {150, 32}}",
+          "uuid" : "92ACA044-7157-4CFD-968F-3288157C8D63",
+          "text" : "Rounds: 8",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 40,
+          "font_name" : "ChalkboardSE-Bold"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {375, 667}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "Tabata",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)"
+    },
+    "selected" : false
+  }
+]
